@@ -1,0 +1,1 @@
+@each('partials.reports.report-card', $reports, 'report')
