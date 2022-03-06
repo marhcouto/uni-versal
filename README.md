@@ -8,7 +8,7 @@
 
 **FINAL GRADE:** 18
 
-**FINAL GRADE:** 87%
+**PROJECT GRADE:** 87%
 
 
 ## Uni-Versal
