@@ -1,21 +1,34 @@
-# FEUP-LBAW-21/22
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-**COURSE:** [LBAW](https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=484433)
-
-**CONTENTS:** 
-- Project developped for the course
-
-**FINAL GRADE:** 18
-
-**PROJECT GRADE:** 87%
-
-
 ## Uni-Versal
 
-**GROUP2106**
+Uni-Versal is a Q&A Forum developed for the course of LBAW at FEUP.
 
-* [André Santos](https://github.com/andrelds11), up201907879@edu.fe.up.pt
-* [Marcelo Couto](https://github.com/marhcouto), up201906086@edu.fe.up.pt
-* [João Afonso](https://github.com/JoaoMIEIC), up201905589@edu.fe.up.pt
-* [Sérgio Estêvão](https://github.com/SergioEstevao11), up201905680@edu.fe.up.pt
+# Q&A forum
+
+### Usage
+
+[Wiki](https://github.com/marhcouto/FEUP-LBAW/wiki)
+
+http://lbaw2106.lbaw.fe.up.pt/
+
+### Installation
+
+[Source Code](https://git.fe.up.pt/lbaw/lbaw2122/lbaw2106/-/tags/PA)
+
+``` 
+docker run -it -p 8000:80 --name=lbaw21XX -e DB_DATABASE=lbaw2106 -e DB_SCHEMA=lbaw2106 -e DB_USERNAME=lbaw2106 -e DB_PASSWORD=RxRjoEut git.fe.up.pt:5050/lbaw/lbaw2122/lbaw2106 
+``` 
+
+### Credentials
+
+| Role | E-mail | Password | Name |
+| ---- | ------ | -------- | ---- |
+| Admin | up201906086@up.pt   | qazwsxedc | Marcelo Couto
+| Moderator |  eu.eli12t@up.pt | qazwsxedc  | Inga Bowers |
+
+
+GROUP2106
+
+* André Santos, up201907879@edu.fe.up.pt
+* Marcelo Couto, up201906086@edu.fe.up.pt
+* João Afonso, up201905589@edu.fe.up.pt
+* Sérgio Estêvão, up201905680@edu.fe.up.pt
